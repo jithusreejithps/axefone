@@ -1,0 +1,13 @@
+Axe Itel Platinum,axe-dialer.jpg,Premium,dialers/axefone_itel.sis
+Axefone Platinum,axe-dialer.jpg,Premium,dialers/axefone.sis
+Mobile Dialer KSA,ksa-md.gif,69370,http://108.165.24.177/newmd
+Mosip Dialer,mosip-md.gif,5822,http://85.25.71.159:210/work/rcthree.sis
+Mosip Touch Dialer,mosip-md.gif,5822,http://85.25.71.159:210/work/rcfive.sis
+Pronto Dialer,pronto.png,53012,https://www.36agent.com/download/ProntoDialer9206.sis
+VoVo Dialer,bb-md.gif,53012,http://209.126.64.56/VoVoDialer_9208.sis
+Axe Platinum Samsung,axe-dialer.jpg,Premium,http://icallx.com/Downloads/AxeFone.apk
+Axe Platinum Android,axe-dialer.jpg,Premium,https://play.google.com/store/apps/details?id=com.AXEDialer
+Mosip Android Dialer,mosip-md.gif,Premium,https://play.google.com/store/apps/details?id=com.vox.mosippro&hl=en
+Pronto Android Dialer,pronto.png,53012,https://play.google.com/store/apps/details?id=com.cprontodialer&hl=en
+VoVo Android Dialer,android-md.gif,53012,http://209.126.64.56/VoVoDialer_9208.sis
+Pronto Swift Dialer,pronto.png,53012,https://play.google.com/store/apps/details?id=com.pronto.cprontoswift&hl=en
