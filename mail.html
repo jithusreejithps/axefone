@@ -27,7 +27,7 @@
 <div class="wrapper row2">
   <nav id="topnav" class="clear">
     <ul>
-      <li><a href="index.php">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="#">Rates</a></li>
       <li><a href="#">Dialers</a>
         <ul>
@@ -49,50 +49,6 @@
 
 <div class="wrapper row3">
   <div id="container" class="clear"  style="min-height:300px">
-<?php
-function spamcheck($field)
-  {
-  //filter_var() sanitizes the e-mail
-  //address using FILTER_SANITIZE_EMAIL
-  $field=filter_var($field, FILTER_SANITIZE_EMAIL);
-
-  //filter_var() validates the e-mail
-  //address using FILTER_VALIDATE_EMAIL
-  if(filter_var($field, FILTER_VALIDATE_EMAIL))
-    {
-    return TRUE;
-    }
-  else
-    {
-    return FALSE;
-    }
-  }
-
-if (isset($_REQUEST['email']))
-  {//if "email" is filled out, proceed
-
-  //check if the email address is invalid
-  $mailcheck = spamcheck($_REQUEST['email']);
-  if ($mailcheck==FALSE)
-    {
-    echo "Invalid input";
-    }
-  else
-    {//send email
-    $email = $_REQUEST['email'] ;
-    $name = $_REQUEST['name'] ;
-	$subject=$_REQUEST['subject'];
-    $message = $_REQUEST['comment'] ;
-    mail("indianxpressdialer@gmail.com", "Subject: $subject",
-    $message, "From: $email" );
-    echo "<h2>Your message have been submitted to the Admin. We will contact you soon.</h2>";
-	echo "$name\n$email\n$subject\n$message";
-    }
-  }
-  else{
-	 echo "<h2>Our server is experiencing some problem, Please try again later.</h2>";
-  }
-?>
   </div>
 </div>
 <div class="wrapper row5">
